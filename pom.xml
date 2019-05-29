@@ -10,8 +10,8 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-producer</module>
-        <module>eureka-producer-feign</module>
-        <module>hystrixdash-board</module>
+        <module>eureka-consumer-feign</module>
+        <module>hystrix-dashboard</module>
         <module>turbine</module>
     </modules>
 
