@@ -1,6 +1,5 @@
 package cn.liulibei.eureka.controller;
-
-import cn.liulibei.eureka.feign.HelloRemote;
+ import cn.liulibei.eureka.feign.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,8 +15,10 @@ public class HelloController {
 
     @GetMapping("/{name}")
     public String index(@PathVariable("name") String name) {
-
         return helloRemote.hello(name + "!");
     }
+
+
+
 
 }
